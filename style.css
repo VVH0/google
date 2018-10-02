@@ -62,6 +62,12 @@ a:hover
 .menu
 {
   padding-bottom: 10px;
+  display: flex;
+}
+
+li
+{
+  list-style-type: none;
 }
 
 .logo
