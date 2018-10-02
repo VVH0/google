@@ -1,0 +1,64 @@
+.nav
+{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+a
+{
+  font-family: arial,sans-serif;
+  color: #222;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.connect
+{
+   color: white;
+   background-color: #4285f4;
+   border: 1px solid #4285f4;
+   font-weight: bold;
+   padding: 6px;
+   margin-left: 10px;
+   cursor: default !important;
+   text-decoration: none !important;
+}
+
+.gmail
+{
+  margin-right:  10px;
+}
+
+.images
+{
+  margin-right: 10px;
+}
+
+a:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.apps
+{
+  background-image: ;
+  height: 28px;
+  width: 28px;
+  margin-top: 10px;
+  opacity: .55;
+  vertical-align: middle;
+}
+
+.menu a.apps:hover
+{
+  opacity: 1;
+}
+
+.menu
+{
+  padding-bottom: 10px;
+}
