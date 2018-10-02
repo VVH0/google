@@ -94,17 +94,23 @@ a:hover
   margin-left: 420px;
   margin-right: auto;
   margin-top: 20px;
-  display: block;
-  box-shadow: 1px 1px 12px #222;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   white-space: nowrap;
+  border: none;
+  border-radius: 2px;
 }
-
+#searchbar .champ:hover
+{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
 .recherche
 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 80px;
 
 }
 
@@ -115,13 +121,20 @@ a:hover
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 2px;
-  font-size: 15px;
-  margin: 11px 4px;
+  font-size: 13px;
+  margin: 14px 5px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   min-width: 54px;
   font-weight: bold;
   color: #757575;
+}
+
+.recherche_google:hover
+{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+color: black;
+cursor: default;
 }
 
 .chance
@@ -133,13 +146,20 @@ a:hover
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 2px;
-  font-size: 15px;
-  margin: 11px 4px;
+  font-size: 13px;
+  margin: 14px 5px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   min-width: 54px;
   font-weight: bold;
   color: #757575;
+}
+
+.chance:hover
+{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+color: black;
+cursor: default;
 }
 
 .footer
@@ -150,6 +170,8 @@ a:hover
   border: 1px solid #e4e4e4;
   display: flex;
   flex-direction: row;
+  font-size: 14px;
+
 
 }
 
@@ -179,4 +201,5 @@ a:hover
 .marge
 {
   margin-left: 10px;
+  color: #666;
 }
