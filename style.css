@@ -1,0 +1,211 @@
+.nav
+{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+a
+{
+  font-family: arial,sans-serif;
+  color: #222;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.connect
+{
+   color: white;
+   background-color: #4285f4;
+   border: 1px solid #4285f4;
+   font-weight: bold;
+   padding: 6px;
+   margin-left: 10px;
+   cursor: default !important;
+   text-decoration: none !important;
+}
+
+.gmail
+{
+  margin-right:  10px;
+}
+
+.images
+{
+  margin-right: 10px;
+}
+
+a:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.apps
+{
+  background-image: ;
+  height: 28px;
+  width: 28px;
+  margin-top: 10px;
+  opacity: .55;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.menu a.apps:hover
+{
+  opacity: 1;
+}
+
+.menu
+{
+  padding-bottom: 10px;
+  display: flex;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+.logo
+{
+
+  height: auto;
+}
+
+#searchbar
+{
+  width: 1000px;
+  height: auto;
+  margin: 20px;
+}
+
+.formulaire
+{
+  display: flex;
+  justify-content: center;
+}
+
+.champ
+{
+  width: 550px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  white-space: nowrap;
+  border: none;
+  border-radius: 2px;
+
+}
+#searchbar .champ:hover
+{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.recherche
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.recherche_google
+{
+  margin-right: 10px;
+  font-family: arial,sans-serif;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  font-size: 13px;
+  margin: 14px 5px;
+  text-align: center;
+  padding: 12px 14px;
+  min-width: 54px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.recherche_google:hover
+{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+color: black;
+cursor: default;
+}
+
+.chance
+{
+  margin-left: 5px;
+  font-family: arial,sans-serif;
+  margin-right: 10px;
+  font-family: arial,sans-serif;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  font-size: 13px;
+  margin: 14px 5px;
+  text-align: center;
+  padding: 12px 14px;
+  min-width: 54px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.chance:hover
+{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+color: black;
+cursor: default;
+}
+
+.footer
+{
+  background-color: #f2f2f2;
+  padding: 14px 16px;
+  font-family: arial,sans-serif;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.france
+{
+  background-color: #f2f2f2;
+  padding: 14px 16px;
+  font-family: arial,sans-serif;
+  border: 0.5px solid #e4e4e4;
+}
+
+.footer_02
+{
+  margin-left: auto;
+  font-family: arial,sans-serif;
+}
+
+.bas
+{
+  font-family: arial,sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.marge
+{
+  margin-left: 10px;
+  color: #666;
+}
+
+section
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 135px;
+}
